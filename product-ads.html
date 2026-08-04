@@ -42,10 +42,10 @@
   <!-- ============ AD GALLERY ============ -->
   <section>
     <div class="container">
-      <div class="project-grid">
+      <div class="project-grid gallery-grid">
 
         <article class="project-card">
-          <figure>
+          <figure class="gallery-figure">
             <img src="assets/projects/ad-cocacola.jpg" alt="Concept ad design, sports drink brand" />
           </figure>
           <span class="caption">Concept Ad</span>
@@ -54,7 +54,7 @@
         </article>
 
         <article class="project-card">
-          <figure>
+          <figure class="gallery-figure">
             <img src="assets/projects/ad-pepsi.jpg" alt="Concept ad design, sports drink brand" />
           </figure>
           <span class="caption">Concept Ad</span>
@@ -63,10 +63,14 @@
         </article>
 
       </div>
-
-      <p class="body-sm" style="text-align: center; margin-top: var(--sp-xxl);">Concept / practice designs made to demonstrate ad design skills — not affiliated with or endorsed by the brands shown.</p>
     </div>
   </section>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="btn-icon lightbox-close" id="lightboxClose" aria-label="Close">✕</button>
+    <img id="lightboxImg" src="" alt="" />
+  </div>
 
   <!-- ============ FOOTER ============ -->
   <footer>

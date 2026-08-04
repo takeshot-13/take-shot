@@ -42,10 +42,10 @@
   <!-- ============ POSTER GALLERY ============ -->
   <section>
     <div class="container">
-      <div class="project-grid">
+      <div class="project-grid gallery-grid">
 
         <article class="project-card">
-          <figure>
+          <figure class="gallery-figure">
             <img src="assets/projects/poster-mansion.jpg" alt="Million dollar reveal poster design" />
           </figure>
           <span class="caption">Reveal Poster</span>
@@ -54,7 +54,7 @@
         </article>
 
         <article class="project-card">
-          <figure>
+          <figure class="gallery-figure">
             <img src="assets/projects/poster-ferrari.jpg" alt="Auction sold poster design" />
           </figure>
           <span class="caption">Auction Poster</span>
@@ -65,6 +65,12 @@
       </div>
     </div>
   </section>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="btn-icon lightbox-close" id="lightboxClose" aria-label="Close">✕</button>
+    <img id="lightboxImg" src="" alt="" />
+  </div>
 
   <!-- ============ FOOTER ============ -->
   <footer>
